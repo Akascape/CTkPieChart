@@ -8,6 +8,17 @@ Download the source code, paste the `CTkPieChart` folder in the directory where 
 ## Usage
 ```python
 import customtkinter
+from CTkPieChart import *
+
+root = customtkinter.CTk()
+
+pie_chart = CTkPieChart(root)
+pie_chart.pack()
+pie_chart.add("A", 10, color="white", text_color="black")
+pie_chart.add("B", 60, color="cyan", text_color="black")
+pie_chart.add("C", 40)
+
+root.mainloop()
 ```
 
 ## Arguments

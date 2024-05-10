@@ -13,7 +13,7 @@ import customtkinter
 ## Arguments
 | Parameters | Details |
 |--------|----------|
-| master	| root window, can be _CTk_ or _CTkFrame_|
+| master	| root window or frame |
 | radius | the initial size of the pie chart |
 | line_width | size of the inner radius |
 | border_width | add border around the pie chart |

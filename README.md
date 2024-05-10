@@ -9,7 +9,7 @@ Another piece in the puzzle, pie chart widget for customtkinter, simple and easy
 - Easily add/configure data
 - Chooses color randomly
 - Calculates % automatically
-- No shart edges in the pie chart
+- No sharp edges 
 
 ## Installation
 ### [<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Akascape/CTkPieChart?&color=white&label=Download%20Source%20Code&logo=Python&logoColor=yellow&style=for-the-badge"  width="400">](https://github.com/Akascape/CTkPieChart/archive/refs/heads/main.zip)

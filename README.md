@@ -1,5 +1,13 @@
 # CTkPieChart
 Another piece in the puzzle, pie chart widget for customtkinter, simple and easy to visualize any data in pie chart form.
+
+## Features
+- Simple and Easy
+- Made specially for customtkinter
+- Easily add/configure data
+- Chooses color randomly
+- No shart edges in the pie chart
+
 ## Installation
 ### [<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Akascape/CTkPieChart?&color=white&label=Download%20Source%20Code&logo=Python&logoColor=yellow&style=for-the-badge"  width="400">](https://github.com/Akascape/CTkPieChart/archive/refs/heads/main.zip)
 
@@ -14,7 +22,7 @@ root = customtkinter.CTk()
 
 pie_chart = CTkPieChart(root)
 pie_chart.pack()
-pie_chart.add("A", 10, color="white", text_color="black")
+pie_chart.add("A", 10)
 pie_chart.add("B", 60, color="cyan", text_color="black")
 pie_chart.add("C", 40)
 

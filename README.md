@@ -1,6 +1,8 @@
 # CTkPieChart
 Another piece in the puzzle, pie chart widget for customtkinter, simple and easy to visualize any data in pie chart form.
 
+![Screenshot](https://github.com/Akascape/CTkPieChart/assets/89206401/2632a3f0-bf79-40ec-a3a1-bf5252d571b9)
+
 ## Features
 - Simple and Easy
 - Made specially for customtkinter

@@ -8,6 +8,7 @@ Another piece in the puzzle, pie chart widget for customtkinter, simple and easy
 - Made specially for customtkinter
 - Easily add/configure data
 - Chooses color randomly
+- Calculates % automatically
 - No shart edges in the pie chart
 
 ## Installation

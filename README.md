@@ -32,6 +32,38 @@ pie_chart.add("C", 40)
 root.mainloop()
 ```
 
+## Example With Details
+```python
+from CTkPieChart import *
+import customtkinter
+
+root = customtkinter.CTk()
+
+pie_chart = CTkPieChart(root, line_width=50)
+pie_chart.pack(side="left", padx=10, pady=10)
+
+pie_chart.add("A", 90)
+pie_chart.add("B", 90)
+pie_chart.add("C", 90)
+pie_chart.add("D", 45)
+pie_chart.add("E", 45)
+
+values = pie_chart.get()
+
+frame = customtkinter.CTkFrame(root, fg_color="transparent")
+frame.pack(side="left", padx=(0,10), pady=10)
+
+for key, values in values.items():
+    data_circle = customtkinter.CTkRadioButton(frame, hover=False, text=key,
+                                               width=1,fg_color=values["color"])
+    data_circle.select()
+    data_circle.pack(pady=5)
+    
+
+root.mainloop()
+```
+![image](https://github.com/Akascape/CTkPieChart/assets/89206401/1b033497-6f99-4994-9540-0c3fffd08cf8)
+
 ## Arguments
 | Parameters | Details |
 |--------|----------|

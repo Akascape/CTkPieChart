@@ -31,6 +31,7 @@ root.mainloop()
 | border_color | color of the borders |
 | bg_color | background color of the widget |
 | text_color | color of the label text |
+| values | add all the values at once, _dict_ |
 
 ## Methods
 - **.add(tag, value, color, text_color)**: adds new data in the chart, **tag**: section name; **data**: value; **color**: color of section (optional, choses color randomly by default), **text_color**: color of text over the section (optional)

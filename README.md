@@ -4,7 +4,7 @@ Another piece in the puzzle, pie chart widget for customtkinter, simple and easy
 ![Screenshot](https://github.com/Akascape/CTkPieChart/assets/89206401/2632a3f0-bf79-40ec-a3a1-bf5252d571b9)
 
 ## Features
-- Simple and Easy
+- Simple widget
 - Made specially for customtkinter
 - Easily add/configure data
 - Chooses color randomly

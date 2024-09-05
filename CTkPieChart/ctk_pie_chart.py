@@ -73,7 +73,7 @@ class CTkPieChart(ctk.CTkLabel):
             radians = (990 - self.border_width)/2
             arc_pos = radians / 3
             textpos = arc_pos/1.5
-            perc = int(value['value']/sum_ * 100)
+            perc = int(round(value['value']/sum_ * 100))
             
             midpoint1_x = xn + (radians - textpos) * math.cos(math.radians(midpoint_angle))
             midpoint1_y = yn + (radians - textpos) * math.sin(math.radians(midpoint_angle))
